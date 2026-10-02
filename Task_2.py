@@ -1,0 +1,17 @@
+while True:
+    print("Student ID Card")
+    name = input("What is your name ? ")
+    student_id = input("What is your Student ID ? ")
+    dep = input("What is your department ? ")
+    uni = input("What is your university ? ")
+    p_no = input("What is your phone number ? ")
+
+    print("+--------------------------------+")
+    print("|       AKIBA STUDENT CARD       |")
+    print("+--------------------------------+")
+    print("| Name: " + name + " |")
+    print("| ID: " + student_id + " |")
+    print("| Department: " + dep + " |")
+    print("| University: " + uni + " |")
+    print("| Phone Number: " + p_no + " |")
+    print("+--------------------------------+")
