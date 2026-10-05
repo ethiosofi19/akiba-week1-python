@@ -3,6 +3,7 @@ while True:
     name = input("What is your name ? ")
     student_id = input("What is your Student ID ? ")
     dep = input("What is your department ? ")
+    year = input("What year are you?")
     uni = input("What is your university ? ")
     p_no = input("What is your phone number ? ")
 
@@ -12,6 +13,7 @@ while True:
     print("| Name: " + name + " |")
     print("| ID: " + student_id + " |")
     print("| Department: " + dep + " |")
+    print("| Year: " + year + " |")
     print("| University: " + uni + " |")
     print("| Phone Number: " + p_no + " |")
     print("+--------------------------------+")
